@@ -1,0 +1,16 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define PAGE_SIZE 256
+#define PAGE_TABLE_SIZE 256
+
+#define FRAME_SIZE 256
+#define NUM_FRAMES 128
+
+#define PHYSICAL_MEMORY_SIZE (FRAME_SIZE * NUM_FRAMES)
+
+#define TLB_SIZE 16
+
+#define BACKING_STORE_PATH "data/BACKING_STORE.bin"
+
+#endif
